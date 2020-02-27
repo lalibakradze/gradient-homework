@@ -1,0 +1,54 @@
+
+
+
+/* //gradienet// */
+
+.div{
+    width: 800px;
+    height: 130px;
+    background-color: silver;
+    border: 2px solid;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+ 
+.divs{
+    width: 150px;
+    height:100px;
+    float: left;
+    border: 2px solid;
+}
+
+.div1{
+    background-image: linear-gradient(to right, red,green,blue);
+}
+.div2{
+    background-image: linear-gradient(blue,green,red);
+}
+
+.div3{
+    background-image: linear-gradient(to bottom right, blue, green, red);
+}
+
+.div4{
+    background-image: linear-gradient(to bottom left, red,green,blue);
+}
+.div5{
+background-image: radial-gradient(blue,green, red);
+}
+
+.div6{
+   background-image: radial-gradient(red 56%, green 56%, blue 74%);
+}
+
+.div7{
+    background-image: repeating-radial-gradient(red, blue 10%, green 40%);
+}
+
+.div8{
+background-image: radial-gradient(red 20%, green 20%,blue 30%);
+}
+
